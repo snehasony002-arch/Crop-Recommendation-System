@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌾 Crop Recommendation Result</h1>
+
+    <div class="result-card">
+
+        <h2>{{ crop }}</h2>
+
+        <hr>
+
+        <h3>📝 Description</h3>
+        <p>{{ info.description }}</p>
+
+        <h3>🌦️ Suitable Season</h3>
+        <p>{{ info.season }}</p>
+
+        <h3>🌱 Suitable Soil</h3>
+        <p>{{ info.soil }}</p>
+
+        <h3>💧 Water Requirement</h3>
+        <p>{{ info.water }}</p>
+
+        <h3>🧪 Recommended Fertilizer</h3>
+        <p>{{ info.fertilizer }}</p>
+
+    </div>
+
+    <br>
+
+    <a class="back-btn" href="/">⬅ Predict Another Crop</a>
+
+</div>
+
+</body>
+
+</html>

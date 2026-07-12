@@ -134,13 +134,7 @@ Random Forest was selected because it:
 
 
 
-### Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## Running the Application
 
@@ -184,7 +178,7 @@ http://127.0.0.1:5000
 
 GitHub: https://github.com/snehasony002-arch
 
-LinkedIn: *(Add your LinkedIn profile URL here)*
+
 
 ---
 
